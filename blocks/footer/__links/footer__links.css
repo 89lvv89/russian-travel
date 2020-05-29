@@ -1,0 +1,9 @@
+.footer__links {
+
+}
+
+@media only screen and (max-width: 320px) {
+  .footer__links {
+    max-width: 160px;
+  }
+}
