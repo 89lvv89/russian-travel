@@ -1,3 +1,11 @@
+@import url(__image/place__image.css);
+@import url(__link/place__link.css);
+@import url(__paragraph/place__paragraph.css);
+@import url(__text/place__text.css);
+@import url(__title/place__title.css);
+@import url(__url/place__url.css);
+@import url(__website/place__website.css);
+
 .place {
   display: grid;
   grid-template-columns: 460px 1fr;
@@ -16,7 +24,6 @@
   .place {
     grid-template-columns: 440px 1fr;
     grid-gap: 48px 32px;
-    padding: 0 48px;
   }
 }
 
@@ -24,15 +31,12 @@
   .place {
     grid-template-columns: 340px 1fr;
     grid-gap: 48px 28px;
-    padding: 0 24px;
   }
 }
 
 @media only screen and (max-width: 630px) {
   .place {
     grid-template-columns: 1fr 1fr;
-    grid-gap: 48px 28px;
-    padding: 0 24px;
   }
 }
 
@@ -44,7 +48,6 @@
     "image"
     "text";
     grid-gap: 36px;
-    padding: 0;
     margin: 0;
   }
 }
@@ -57,8 +60,6 @@
     "image"
     "text";
     grid-gap: 32px;
-    padding: 0;
-    margin: 0;
   }
 }
 

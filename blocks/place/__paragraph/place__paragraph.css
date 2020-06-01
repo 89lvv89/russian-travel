@@ -12,8 +12,10 @@
   margin: 0;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 550px) {
   .place__paragraph {
     padding: 0 16px;
+    font-size: 16px;
+    line-height: 26px;
   }
 }
