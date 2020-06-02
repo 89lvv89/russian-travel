@@ -1,5 +1,6 @@
 @import url(__list/intro__list.css);
 @import url(__list-number/intro__list-number.css);
+@import url(__list-set/intro__list-set.css);
 @import url(__text/intro__text.css);
 @import url(__title/intro__title.css);
 
@@ -23,7 +24,7 @@
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 425px) {
   .intro {
     max-width: 288px;
     margin: 64px 0 0;
