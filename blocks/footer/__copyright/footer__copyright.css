@@ -1,5 +1,4 @@
 .footer__copyright {
-  max-width: 186px;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -10,10 +9,15 @@
   margin: 0;
 }
 
+@media only screen and (max-width: 695px) {
+  .footer__copyright {
+    margin: 24px 0 0 0;
+  }
+}
+
 @media only screen and (max-width: 450px) {
   .footer__copyright {
-    margin-top: 32px;
+    margin: 0 0 24px 16px;
     line-height: 14px;
-    padding-left: 16px;
   }
 }

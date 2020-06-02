@@ -1,9 +1,10 @@
 .footer__links {
-
+  display: flex;
 }
 
 @media only screen and (max-width: 450px) {
   .footer__links {
-    max-width: 180px;
+    flex-direction: column;
+    margin: 64px 0 0 0;
   }
 }
