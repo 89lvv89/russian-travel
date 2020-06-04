@@ -17,13 +17,7 @@
   }
 }
 
-@media only screen and (max-width: 710px) {
-  .footer {
-    padding: 0 16px;
-  }
-}
-
-@media only screen and (max-width: 695px) {
+@media only screen and (max-width: 709px) {
   .footer {
     display: inline;
   }
@@ -31,6 +25,6 @@
 
 @media only screen and (max-width: 450px) {
   .footer {
-    margin: 64px 0 24px;
+    margin: 64px 0 0 0;
   }
 }

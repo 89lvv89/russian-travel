@@ -10,6 +10,16 @@
   position: relative;
 }
 
+@media only screen and (max-width: 415px) {
+  .cover__subtitle {
+    max-width: 310px;
+    font-size: 16px;
+    line-height: 18px;
+    margin: 16px 0 0;
+  }
+}
+
+
 @media only screen and (max-width: 320px) {
   .cover__subtitle {
     max-width: 288px;

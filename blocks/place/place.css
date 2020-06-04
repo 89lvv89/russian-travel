@@ -34,12 +34,6 @@
   }
 }
 
-@media only screen and (max-width: 720px) {
-  .place {
-    padding: 0 24px;
-  }
-}
-
 @media only screen and (max-width: 630px) {
   .place {
     grid-template-columns: 1fr 1fr;
@@ -54,8 +48,7 @@
     "image"
     "text";
     grid-gap: 36px;
-    margin: 0;
-    padding: 0;
+
   }
 }
 
