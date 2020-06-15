@@ -1,7 +1,11 @@
 .header__lang {
+  width: 78px;
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: space-between;
   align-self: flex-end;
+  list-style: none;
 }
 
 @media only screen and (max-width: 425px) {

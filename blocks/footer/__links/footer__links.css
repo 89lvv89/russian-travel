@@ -1,5 +1,6 @@
 .footer__links {
   display: flex;
+  list-style: none;
 }
 
 @media only screen and (max-width: 709px) {

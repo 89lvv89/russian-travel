@@ -1,18 +1,7 @@
 .header__lang-link_activ {
   border-bottom: solid #FFFFFF 2px;
-  margin-right: 16px;
 }
 
 
 
-.header__lang-link_activ:hover {
-  opacity: 0.8;
-  transition: 0.3s;
-}
 
-@media only screen and (max-width: 425px) {
-  .header__lang-link_activ {
-    font-size: 18px;
-    line-height: 24px;
-  }
-}
